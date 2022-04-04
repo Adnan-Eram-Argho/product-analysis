@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Adnan Eram ",
+        "comment": "Very good and usable product recomended for every one",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "Shadman Shakib",
+        "comment": "I used it for 2 years it was good",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Shakib Al Hasan",
+        "comment": "I played crickcet using it and it felt good",
+        "rating": 3.9
+    },
+    {
+        "id": 4,
+        "name": "Hasibul Hasan",
+        "comment": "I talked with my jantuss using it and her voice was way clear in it",
+        "rating": 4.4
+    },
+    {
+        "id": 5,
+        "name": "Asif Ahmned",
+        "comment": "I slept hearing in it",
+        "rating": 2.5
+    },
+    {
+        "id": 6,
+        "name": "Ahsan Afif",
+        "comment": "Hearing to songs and eating are my favorite past time",
+        "rating": 4.5
+    }
+]
