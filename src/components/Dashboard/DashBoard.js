@@ -16,8 +16,8 @@ const DashBoard = () => {
     console.log(chartData)
     const data = chartData;
     return (
-        <div className='container'>
-            <LineChart width={400} height={500} data={data}>
+        <div className='container '>
+            <LineChart width={200} height={300} data={data}>
                 <Line dataKey={'investment'}></Line>
                 <Line dataKey={'sell'}></Line>
                 <Line dataKey={'revenue'}></Line>

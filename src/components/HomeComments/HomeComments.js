@@ -9,9 +9,9 @@ const HomeComments = () => {
     return (
         <div className='container comments'>
             {
-                newcomments.map(comment1 => <HomeComment comment1={comment1} key={comment1.id}></HomeComment>)
+                newcomments.map(generalComment => <HomeComment comment1={generalComment} key={generalComment.id} ></HomeComment>)
             }
-        </div>
+        </div >
     );
 };
 
