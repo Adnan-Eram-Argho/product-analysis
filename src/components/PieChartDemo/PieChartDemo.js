@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pie, PieChart } from 'recharts';
+import { Pie, PieChart, Tooltip } from 'recharts';
 
 const PieChartDemo = () => {
     const data1 = [
@@ -71,6 +71,7 @@ const PieChartDemo = () => {
             <PieChart width={730} height={250}>
                 <Pie data={data1} dataKey="investment" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                 <Pie data={data2} dataKey="revenue" nameKey="sell" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+
             </PieChart>
         </div>
     );
