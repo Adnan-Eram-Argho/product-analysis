@@ -9,7 +9,7 @@ const Reviews = () => {
             <h1 >What Our Customers Say</h1>
             <div className='comments'>
                 {
-                    comments.map(comment1 => <HomeComment comment1={comment1}></HomeComment>)
+                    comments.map(comment1 => <HomeComment comment1={comment1} key={comment1.id}></HomeComment>)
                 }
             </div>
         </div>
